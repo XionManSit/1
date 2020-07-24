@@ -124,7 +124,6 @@ function change(){
         echo color("green","[+] Berhasil mendaftar");
         echo"\n";
         echo color("red","[×]──────────────────────────────────────────[×]\n");
-        echo color("yellow","[×]  1 Padang 2 Bogor 3 Makassar 4 Samarinda [×]\n");
         echo color("red","[×]──────────────────────────────────────────[×]\n");
         $token = getStr('"access_token":"','"',$verif);
         $uuid = getStr('"resource_owner_id":',',',$verif);
